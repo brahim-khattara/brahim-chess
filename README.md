@@ -10,6 +10,43 @@ BrahimClone is a behavioral-cloning project: scrape my Chess.com / Lichess games
 </p>
 <p align="center"><em>Green arrow = what I played · Red arrow = what the clone chose</em></p>
 
+## What's actually new here
+
+### How chess bots are normally trained
+
+Most famous chess AIs are built to **win**, not to imitate a person:
+
+| Family | How it's trained | What it optimizes |
+|---|---|---|
+| **Classical engines** (old Stockfish-style) | Hand-written evaluation features + deep alpha-beta search | Best move under a human-designed score |
+| **Modern Stockfish (NNUE)** | A neural net replaces the eval function, still inside a huge search tree | Same goal — strongest legal move |
+| **AlphaZero / Leela Chess Zero** | Self-play reinforcement learning: the net plays itself millions of times, with MCTS search | Maximize win probability from scratch |
+
+In all of those setups, “play weaker” usually means *search less* or *add noise*. That does **not** reproduce how a specific human thinks. A diluted Stockfish still plays like Stockfish — it just blunders less carefully. Human players hang pieces, love certain openings, panic in time trouble, and have favorite tactical patterns. Engines do not.
+
+### Have people built “chess clones” with neural nets before?
+
+Yes — but almost always as **crowd-level** human models, not personal Transformers:
+
+- **[Maia](https://www.cs.toronto.edu/~ashton/pubs/maia-kdd2020.pdf)** (Microsoft / Toronto, 2020) adapts the AlphaZero/Leela residual-CNN stack and trains it with supervised learning on **millions of online human games**, one model per Elo bin (1100–1900). No tree search at prediction time — the policy net alone predicts “what would a ~1500 play here?”
+- A follow-up, **[Maia Individual](https://www.cs.toronto.edu/~ashton/pubs/maia-individual-kdd2022.pdf)** (2022), pushes further toward modeling **specific players**, still on top of that Leela-style architecture and large-scale data.
+
+So human-move prediction exists. What is uncommon is building a **from-scratch personal clone** of *one* amateur player, from only that player’s own PGNs, using a **Transformer sequence model** instead of the AlphaZero residual-net + self-play stack — and treating the whole thing as a controlled ML experiment ladder.
+
+### Where BrahimClone sits
+
+| | Typical engine / Maia | BrahimClone |
+|---|---|---|
+| **Objective** | Win, or match an Elo *crowd* | Imitate **me** |
+| **Data** | Self-play or millions of public games | Only my Chess.com + Lichess 10-min games |
+| **Architecture** | Search + eval, or AlphaZero-style CNN | Encoder **Transformer** over board tokens |
+| **Inference** | Often deep search | Single forward pass (optional legal-move mask) |
+| **Method** | One big training run | Ablation ladder (data → masking → heads → 2D PE → fine-tune) |
+
+**The innovation is the framing:** personal behavioral cloning as an ML research project. Instead of asking “how strong can this get?”, ask “how much of *my* decision distribution can a Transformer recover from my history alone?” — measured with masked Top-1 / Top-5 accuracy, qualitative board diffs, and an interactive play app.
+
+That is a different scientific question from building another engine, and a different engineering stack from fine-tuning Leela/Maia. Everything below is the experiment trail that got from ~9% exact move accuracy to **~43% Top-1 / ~73% Top-5**.
+
 ---
 
 ## Highlights
