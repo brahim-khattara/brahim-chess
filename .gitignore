@@ -1,0 +1,34 @@
+# Bytecode / virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Training artifacts (large)
+models/**/*.pth
+*.pth
+wandb/
+runs/
+lightning_logs/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log

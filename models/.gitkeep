@@ -1,0 +1,1 @@
+# Keep the models directory in git; checkpoints themselves are gitignored.

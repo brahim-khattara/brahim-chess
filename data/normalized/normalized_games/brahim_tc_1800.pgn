@@ -1,0 +1,220 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2023.08.23"]
+[Round "-"]
+[White "HamidKH1"]
+[Black "brahimkhattara"]
+[Result "0-1"]
+[CurrentPosition "8/6pk/6p1/8/Q3p3/8/P5PP/3B1q1K w - -"]
+[Timezone "UTC"]
+[ECO "B01"]
+[ECOUrl "https://www.chess.com/openings/Scandinavian-Defense"]
+[UTCDate "2023.08.23"]
+[UTCTime "21:47:54"]
+[WhiteElo "975"]
+[BlackElo "1328"]
+[TimeControl "1800"]
+[Termination "brahimkhattara won by checkmate"]
+[StartTime "21:47:54"]
+[EndDate "2023.08.23"]
+[EndTime "22:00:32"]
+[Link "https://www.chess.com/game/live/86566187391"]
+
+1. e4 { [%clk 0:30:00] } 1... d5 { [%clk 0:30:00] } 2. Nf3 { [%clk 0:29:59.6] }
+2... dxe4 { [%clk 0:29:58.7] } 3. Ng1 { [%clk 0:29:47.3] } 3... Nf6
+{ [%clk 0:29:50.8] } 4. Nc3 { [%clk 0:29:44.9] } 4... e5 { [%clk 0:29:48.7] }
+5. Bc4 { [%clk 0:29:42.7] } 5... Bg4 { [%clk 0:29:37.8] } 6. f3
+{ [%clk 0:29:39] } 6... exf3 { [%clk 0:29:36.8] } 7. Nxf3 { [%clk 0:29:36.9] }
+7... Bxf3 { [%clk 0:29:35] } 8. Qxf3 { [%clk 0:29:35.6] } 8... Qd4
+{ [%clk 0:29:28.5] } 9. Bb3 { [%clk 0:29:28.9] } 9... Nc6 { [%clk 0:29:24.1] }
+10. d3 { [%clk 0:29:24.2] } 10... Nb4 { [%clk 0:29:15] } 11. Be3
+{ [%clk 0:29:10.5] } 11... Qg4 { [%clk 0:29:13.5] } 12. Qxb7
+{ [%clk 0:28:58.8] } 12... Rd8 { [%clk 0:28:44.8] } 13. Qxc7
+{ [%clk 0:28:53.6] } 13... Nxc2+ { [%clk 0:28:42.6] } 14. Bxc2
+{ [%clk 0:28:49.8] } 14... Bb4 { [%clk 0:28:24.4] } 15. Ba4+ { [%clk 0:28:45] }
+15... Nd7 { [%clk 0:28:18.5] } 16. O-O { [%clk 0:28:14.7] } 16... O-O
+{ [%clk 0:27:46.2] } 17. Nd5 { [%clk 0:27:52.4] } 17... Nc5
+{ [%clk 0:27:26.1] } 18. Ne7+ { [%clk 0:27:00.2] } 18... Kh8
+{ [%clk 0:27:23.3] } 19. Bxc5 { [%clk 0:26:55.3] } 19... Bxc5+
+{ [%clk 0:27:11.6] } 20. Qxc5 { [%clk 0:26:44.9] } 20... Rxd3
+{ [%clk 0:27:08.4] } 21. Ng6+ { [%clk 0:25:20] } 21... hxg6
+{ [%clk 0:27:03.1] } 22. Qxf8+ { [%clk 0:25:14.7] } 22... Kh7
+{ [%clk 0:27:00.9] } 23. Qxf7 { [%clk 0:25:05] } 23... Rd2 { [%clk 0:26:51.4] }
+24. Rad1 { [%clk 0:23:56.2] } 24... Rxd1 { [%clk 0:26:35.5] } 25. Bxd1
+{ [%clk 0:23:47.3] } 25... Qd4+ { [%clk 0:26:33.8] } 26. Kh1
+{ [%clk 0:23:42.1] } 26... Qxb2 { [%clk 0:26:32.5] } 27. Qxa7
+{ [%clk 0:23:11] } 27... e4 { [%clk 0:25:30.6] } 28. Rf8 { [%clk 0:22:58.6] }
+28... Qd2 { [%clk 0:25:06.7] } 29. Qa4 { [%clk 0:22:45.9] } 29... Qe1+
+{ [%clk 0:24:56.9] } 30. Rf1 { [%clk 0:22:40.8] } 30... Qxf1#
+{ [%clk 0:24:56.8] } 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2024.09.11"]
+[Round "-"]
+[White "HamidKH1"]
+[Black "brahimkhattara"]
+[Result "0-1"]
+[CurrentPosition "r3k2r/2B2ppp/8/1p6/KP1n4/3P3P/P4P2/b4B1R w kq -"]
+[Timezone "UTC"]
+[ECO "B02"]
+[ECOUrl "https://www.chess.com/openings/Alekhines-Defense-Scandinavian-Variation-3.exd5-Nxd5-4.Nxd5-Qxd5-5.Nf3"]
+[UTCDate "2024.09.11"]
+[UTCTime "16:17:20"]
+[WhiteElo "977"]
+[BlackElo "1361"]
+[TimeControl "1800"]
+[Termination "brahimkhattara won by checkmate"]
+[StartTime "16:17:20"]
+[EndDate "2024.09.11"]
+[EndTime "16:24:09"]
+[Link "https://www.chess.com/game/live/119810424381"]
+
+1. e4 { [%clk 0:30:00] } 1... d5 { [%clk 0:30:00] } 2. exd5
+{ [%clk 0:29:58.3] } 2... Nf6 { [%clk 0:29:53.2] } 3. Nc3 { [%clk 0:29:52.6] }
+3... Nxd5 { [%clk 0:29:50.5] } 4. Nxd5 { [%clk 0:29:49.9] } 4... Qxd5
+{ [%clk 0:29:35.8] } 5. Nf3 { [%clk 0:29:47.4] } 5... Bg4 { [%clk 0:29:29.4] }
+6. h3 { [%clk 0:29:40.4] } 6... Bxf3 { [%clk 0:29:27] } 7. Qxf3
+{ [%clk 0:29:39.6] } 7... Qxf3 { [%clk 0:29:17.4] } 8. gxf3
+{ [%clk 0:29:36.6] } 8... Nc6 { [%clk 0:29:16.7] } 9. d3 { [%clk 0:29:24.5] }
+9... e5 { [%clk 0:29:10.2] } 10. f4 { [%clk 0:28:20.8] } 10... Bd6
+{ [%clk 0:29:02.6] } 11. c4 { [%clk 0:27:55.9] } 11... Nd4 { [%clk 0:28:57.9] }
+12. Kd2 { [%clk 0:26:31.8] } 12... exf4 { [%clk 0:28:47.4] } 13. Kc3
+{ [%clk 0:26:19] } 13... Be5 { [%clk 0:28:39.7] } 14. b4 { [%clk 0:25:59.7] }
+14... Nb5+ { [%clk 0:28:28.2] } 15. Kb3 { [%clk 0:25:49.8] } 15... Bxa1
+{ [%clk 0:28:20] } 16. Bxf4 { [%clk 0:25:45.1] } 16... Nd4+
+{ [%clk 0:28:09.9] } 17. Ka4 { [%clk 0:25:39.4] } 17... a6 { [%clk 0:28:05.9] }
+18. Bxc7 { [%clk 0:25:36] } 18... b5+ { [%clk 0:28:04] } 19. cxb5
+{ [%clk 0:25:33.6] } 19... axb5# { [%clk 0:28:03.5] } 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2024.09.11"]
+[Round "-"]
+[White "brahimkhattara"]
+[Black "HamidKH1"]
+[Result "1-0"]
+[CurrentPosition "rnb1kbnr/ppp1pppp/2q5/1B6/8/2N5/PPPP1PPP/R1BQK1NR b KQkq -"]
+[Timezone "UTC"]
+[ECO "B01"]
+[ECOUrl "https://www.chess.com/openings/Scandinavian-Defense-Mieses-Kotrc-Variation-3.Nc3"]
+[UTCDate "2024.09.11"]
+[UTCTime "16:15:44"]
+[WhiteElo "1361"]
+[BlackElo "977"]
+[TimeControl "1800"]
+[Termination "brahimkhattara won by resignation"]
+[StartTime "16:15:44"]
+[EndDate "2024.09.11"]
+[EndTime "16:17:09"]
+[Link "https://www.chess.com/game/live/119810403969"]
+
+1. e4 { [%clk 0:30:00] } 1... d5 { [%clk 0:30:00] } 2. exd5
+{ [%clk 0:29:54.8] } 2... Qxd5 { [%clk 0:29:58] } 3. Nc3 { [%clk 0:29:53.9] }
+3... Qc6 { [%clk 0:29:44.4] } 4. Bb5 { [%clk 0:29:39.8] } 1-0
+
+[Event "Live Chess - Odds Chess"]
+[Site "Chess.com"]
+[Date "2025.06.12"]
+[Round "-"]
+[White "brahimkhattara"]
+[Black "mounir4a"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBN1 w Qkq - 0 1"]
+[CurrentPosition "6nr/4b1pp/1pp1Q3/4k3/6B1/2P1B3/PP3PPq/1R2K3 b - - 2 21"]
+[Timezone "UTC"]
+[ECO "C45"]
+[ECOUrl "https://www.chess.com/openings/Scotch-Game-3...exd4-4.Nxd4-Nxd4-5.Qxd4"]
+[UTCDate "2025.06.12"]
+[UTCTime "23:57:36"]
+[WhiteElo "1595"]
+[BlackElo "962"]
+[TimeControl "1800"]
+[Termination "brahimkhattara won by checkmate"]
+[StartTime "23:57:36"]
+[EndDate "2025.06.13"]
+[EndTime "00:10:30"]
+[Link "https://www.chess.com/game/live/144086409217"]
+
+1. e4 { [%clk 0:30:00] } 1... e5 { [%clk 0:30:00] } 2. Nf3 { [%clk 0:29:59] }
+2... Nc6 { [%clk 0:29:54.1] } 3. d4 { [%clk 0:29:56.7] } 3... Nxd4
+{ [%clk 0:29:49.5] } 4. Nxd4 { [%clk 0:29:56.6] } 4... exd4
+{ [%clk 0:29:47.7] } 5. Qxd4 { [%clk 0:29:56.5] } 5... d5 { [%clk 0:29:39.4] }
+6. e5 { [%clk 0:29:52.7] } 6... f6 { [%clk 0:29:00.9] } 7. exf6
+{ [%clk 0:29:48.1] } 7... Qxf6 { [%clk 0:28:57.3] } 8. Qxd5
+{ [%clk 0:29:37.6] } 8... Bb4+ { [%clk 0:28:48] } 9. c3 { [%clk 0:29:35] } 9...
+c6 { [%clk 0:28:10.7] } 10. Qe4+ { [%clk 0:29:28.5] } 10... Be7
+{ [%clk 0:27:12.6] } 11. Be3 { [%clk 0:29:19.3] } 11... Bf5
+{ [%clk 0:25:28.9] } 12. Qa4 { [%clk 0:28:11.9] } 12... O-O-O
+{ [%clk 0:24:45.2] } 13. Qxa7 { [%clk 0:28:05.4] } 13... Bxb1
+{ [%clk 0:24:01.5] } 14. Rxb1 { [%clk 0:27:33.9] } 14... Qd6
+{ [%clk 0:23:23.2] } 15. Be2 { [%clk 0:26:54.7] } 15... Qxh2
+{ [%clk 0:22:26.6] } 16. Bg4+ { [%clk 0:26:51.7] } 16... Rd7
+{ [%clk 0:21:52.4] } 17. Qa8+ { [%clk 0:26:39.9] } 17... Kc7
+{ [%clk 0:21:43.7] } 18. Qa5+ { [%clk 0:26:31.8] } 18... b6
+{ [%clk 0:21:25.4] } 19. Qa7+ { [%clk 0:26:29.8] } 19... Kd6
+{ [%clk 0:21:11.5] } 20. Qxd7+ { [%clk 0:26:29.7] } 20... Ke5
+{ [%clk 0:21:02.2] } 21. Qe6# { [%clk 0:26:20.6] } 1-0
+
+[Event "Live Chess - Odds Chess"]
+[Site "Chess.com"]
+[Date "2025.06.12"]
+[Round "-"]
+[White "brahimkhattara"]
+[Black "mounir4a"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBN1 w Qkq - 0 1"]
+[CurrentPosition "r1bqkb1r/pppp1Qpp/2n5/4N3/8/8/PPPP1PPP/RNB1K3 b Qkq - 0 7"]
+[Timezone "UTC"]
+[ECO "C42"]
+[ECOUrl "https://www.chess.com/openings/Petrovs-Defense-Classical-Damiano-Variation"]
+[UTCDate "2025.06.12"]
+[UTCTime "23:13:09"]
+[WhiteElo "1595"]
+[BlackElo "962"]
+[TimeControl "1800"]
+[Termination "brahimkhattara won by checkmate"]
+[StartTime "23:13:09"]
+[EndDate "2025.06.12"]
+[EndTime "23:15:06"]
+[Link "https://www.chess.com/game/live/144083418107"]
+
+1. e4 { [%clk 0:30:00] } 1... e5 { [%clk 0:30:00] } 2. Nf3 { [%clk 0:29:53.7] }
+2... Nf6 { [%clk 0:29:48.6] } 3. Nxe5 { [%clk 0:29:47] } 3... Nxe4
+{ [%clk 0:29:44.2] } 4. Qf3 { [%clk 0:29:43.3] } 4... Nd6 { [%clk 0:29:00.6] }
+5. Bc4 { [%clk 0:29:39.1] } 5... Nc6 { [%clk 0:28:43.2] } 6. Bxf7+
+{ [%clk 0:29:35.3] } 6... Nxf7 { [%clk 0:28:35.7] } 7. Qxf7#
+{ [%clk 0:29:33.7] } 1-0
+
+[Event "Live Chess - Odds Chess"]
+[Site "Chess.com"]
+[Date "2025.06.12"]
+[Round "-"]
+[White "brahimkhattara"]
+[Black "mounir4a"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBN1 w Qkq - 0 1"]
+[CurrentPosition "r1bqkb1r/pppp1ppp/8/1B2p3/3NP1Q1/2N5/PPPP1PPP/R1B1K3 b Qkq - 0 6"]
+[Timezone "UTC"]
+[ECO "C47"]
+[ECOUrl "https://www.chess.com/openings/Four-Knights-Game"]
+[UTCDate "2025.06.12"]
+[UTCTime "23:09:48"]
+[WhiteElo "1595"]
+[BlackElo "962"]
+[TimeControl "1800"]
+[Termination "brahimkhattara won by resignation"]
+[StartTime "23:09:48"]
+[EndDate "2025.06.12"]
+[EndTime "23:12:48"]
+[Link "https://www.chess.com/game/live/144083413353"]
+
+1. e4 { [%clk 0:30:00] } 1... e5 { [%clk 0:30:00] } 2. Nf3 { [%clk 0:29:53.1] }
+2... Nf6 { [%clk 0:29:36] } 3. Nc3 { [%clk 0:29:47.6] } 3... Nc6
+{ [%clk 0:29:32.1] } 4. Bb5 { [%clk 0:29:45.8] } 4... Nd4 { [%clk 0:29:15.8] }
+5. Nxd4 { [%clk 0:29:40.5] } 5... Ng4 { [%clk 0:28:48.9] } 6. Qxg4
+{ [%clk 0:28:40.5] } 1-0
+
