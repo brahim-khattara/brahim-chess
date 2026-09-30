@@ -57,6 +57,53 @@ That is a different scientific question from building another engine, and a diff
 - Peak result: **42.7% Top-1 / 72.7% Top-5** masked exact accuracy (EXP-12)
 - Interactive Streamlit apps to play the clone and inspect its Top-5 candidate moves
 
+## Dataset
+
+Everything comes from **my own games** (`brahimkhattara` on Chess.com + Lichess). Only *my* moves are kept as labels — opponent moves appear only as optional context.
+
+### Scale
+
+| Stage | Size |
+|---|---|
+| Raw Chess.com PGN | 11.4 MB |
+| Raw Lichess PGN | 3.5 MB |
+| Games after time-control bucketing | ~6,500 total |
+| **10-minute games used (`tc_600`)** | **3,554 games** |
+| Move positions (all 10-min, no Elo filter) | **110,987** |
+| Move positions (Elo ≥ 1100 + history) | **89,489** |
+| Move positions (Elo ≥ 1400 + history) | **59,968** |
+
+Train / val / test splits use a fixed shuffle (`seed=42`) with **5,000** val and **5,000** test rows; the rest is training:
+
+| Filter | Train | Val | Test |
+|---|---:|---:|---:|
+| Elo ≥ 1100 + history | 79,489 | 5,000 | 5,000 |
+| Elo ≥ 1400 + history *(EXP-14 / 15)* | 49,968 | 5,000 | 5,000 |
+
+That is tiny next to Maia’s millions of games — which is the point. The question is how much personal style a Transformer can recover from **one** player’s history.
+
+### Schema
+
+Each training row is one decision I faced:
+
+| Column | Meaning | Example |
+|---|---|---|
+| `Board_State_FEN` | Full FEN before my move | `rn2kb1r/ppp1pppp/5n2/3q4/6b1/5N2/PPPPBPPP/RNBQ1RK1 b kq - 3 5` |
+| `Brahim_Move_UCI` | The move I played (label) | `e7e6` |
+| `Opponent_Last_Move_UCI` | Opponent’s previous move (optional history) | `e1g1` |
+
+Example rows from the Elo ≥ 1400 training set:
+
+```csv
+Board_State_FEN,Brahim_Move_UCI,Opponent_Last_Move_UCI
+8/8/8/p7/8/3kNP2/rp4PP/2RK4 w - - 0 53,e3c2,b3b2
+2kr4/pp3p1p/2p5/7Q/2B1p3/2P4P/P1P2PP1/6K1 w - - 0 23,h5f7,f8d8
+rn2kb1r/ppp1pppp/5n2/3q4/6b1/5N2/PPPPBPPP/RNBQ1RK1 b kq - 3 5,e7e6,e1g1
+rn1qk2r/ppp2ppp/4bn2/2b5/2P5/2N5/PP1PQPPP/R1B1KBNR b KQkq - 1 6,e8g8,b1c3
+```
+
+Pipeline: scrape PGNs → bucket by time control → extract `(FEN, my_move[, opponent_last_move])` → shuffle-split. See `scripts/data/`.
+
 ## How we measure success
 
 Chess has ~30 legal moves in a typical position. Predicting my *exact* next move is a hard multi-class problem — even a strong stylistic clone will often pick a plausible alternative.
